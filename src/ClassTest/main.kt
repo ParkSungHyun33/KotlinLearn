@@ -23,4 +23,8 @@ fun main(args: Array<String>) {
             "Length : ${towerTank.length}, " +
             "Water : ${towerTank.water} L, " +
             "Volume : ${towerTank.volume} L")
+
+    val savingAccount = SavingAccount(1002,
+        3000.0, 2.0)
+    savingAccount.displayBalance()
 }
